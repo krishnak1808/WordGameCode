@@ -8,7 +8,9 @@ Our Project is a “word guessing game”. This is a game to inculcate literatur
 
 ## Features
 In this section the procedure in the game as well some logics of code are explained:
-- Firstly the user will be asked to choose between the two flavours of the game, (i).User can choose the length of word he wants to attempt and (ii).The user will be given words level by level with increasing length.
+- Firstly the user will be asked to choose between the two flavours of the game,
+  i. User can choose the length of word he wants to attempt and
+  ii. The user will be given words level by level with increasing length.
 - If he chooses the first flavor of the game, he/she will be asked to enter the length of word they want and they will be given a word of required length with random letters missing in it.
 - If he chooses the second flavor in which there will be levels with increasing word length for every score increase of 5 and will be given words in levels and asked to guess missing characters.
 - The user is also given with the hint of the word so as to remove the ambiguity between different words.
@@ -33,5 +35,5 @@ In this section the procedure in the game as well some logics of code are explai
 sudo apt-get update
 sudo apt-get install python3-tk
 ```
-- PyDictionary lib for python3 should install using pip3 along with its required dependencies
+- PyDictionary lib for python3 should install using pip3 along with its required dependencies, [help](https://stackoverflow.com/questions/71336856/error-pydictionary-would-not-install-on-python-3-10-2)
 - word_list.py should present in same dicrectory
