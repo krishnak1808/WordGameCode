@@ -29,11 +29,15 @@ In this section the procedure in the game as well some logics of code are explai
 
 
 ## Pre-Requisites
-- Python3 or above version
-- Tkinter library should be in system for python3
+- Python3 or above version.
+- Tkinter library should be in system for python3.
 ```
 sudo apt-get update
 sudo apt-get install python3-tk
 ```
-- PyDictionary lib for python3 should install using pip3 along with its required dependencies, [help](https://stackoverflow.com/questions/71336856/error-pydictionary-would-not-install-on-python-3-10-2)
-- word_list.py should present in same dicrectory
+- PyDictionary lib for python3 should install using pip3 along with its required dependencies, [help](https://stackoverflow.com/questions/71336856/error-pydictionary-would-not-install-on-python-3-10-2) or follow below commands.
+```
+python3 -m pip install -e git+https://github.com/yeahwhat-mc/goslate#egg=goslate
+python3 -m pip install PyDictionary
+```
+- word_list.py should present in same dicrectory where wordGame is present.
